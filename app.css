@@ -57,10 +57,21 @@ a {
 
 .top-nav__item {
   flex-grow: 1;
+  text-align: center;
 }
 
 .top-nav__item a {
   color: #eee;
+
+  padding: 0.2rem;
+}
+
+/**
+ * MODIFIER: Active Nav Link
+ */
+.top-nav__item:hover a,
+.top-nav__item--active a {
+  border-top: 1px #09acdf solid;
 }
 
 /**
