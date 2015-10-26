@@ -1,0 +1,64 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding-top: 4rem; /* Pad for .top-nav */
+
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: inherit;
+}
+
+/**
+ * BLOCK: Top Naviation
+ */
+
+.top-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  align-items: center;
+
+  width: 100%;
+  height: 4rem;
+  padding: 0.6rem;
+
+  overflow: hidden;
+
+  background: #111;
+
+  text-transform: uppercase;
+  color: #eee;
+}
+
+.top-nav__logo {
+  margin: 0;
+  max-width: 7rem;
+
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.top-nav__items {
+  display: flex;
+  flex-grow: 1;
+
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.top-nav__item {
+  flex-grow: 1;
+}
+
+.top-nav__item a {
+  color: #eee;
+}
