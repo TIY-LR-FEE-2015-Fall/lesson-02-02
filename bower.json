@@ -1,0 +1,21 @@
+{
+  "name": "lesson-01-2",
+  "description": "",
+  "main": "Brocfile.js",
+  "authors": [
+    "Ryan Tablada <ryan.tablada@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/TIY-LR-FEE-2015-Fall/lesson-02-02",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "~3.0.3"
+  }
+}

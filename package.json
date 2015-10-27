@@ -1,0 +1,24 @@
+{
+  "name": "lesson-01-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Brocfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "broccoli": "^0.16.8",
+    "broccoli-merge-trees": "^0.2.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TIY-LR-FEE-2015-Fall/lesson-02-02.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TIY-LR-FEE-2015-Fall/lesson-02-02/issues"
+  },
+  "homepage": "https://github.com/TIY-LR-FEE-2015-Fall/lesson-02-02#readme"
+}

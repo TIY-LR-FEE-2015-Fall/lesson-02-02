@@ -3,10 +3,7 @@
 }
 
 body {
-  margin: 0;
   padding-top: 4rem; /* Pad for .top-nav */
-
-  font-family: sans-serif;
 }
 
 a {
